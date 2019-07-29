@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/expositores"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Expositores"
+            />
+
+        <item
+            android:id="@+id/programa"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Programa"/>
+
+        <item
+            android:id="@+id/eventos"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Eventos"/>
+
+        <item
+            android:id="@+id/talleres"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Talleres"/>
+
+        <item
+            android:id="@+id/costos"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="Costos"/>
+        <item
+            android:id="@+id/ubicacion"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="Ubicación"/>
+    </group>
+
+    <item android:title="@string/app_communicate">
+        <menu>
+            <item
+                android:id="@+id/salirc"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="@string/salir_main"
+                />
+        </menu>
+    </item>
+
+
+</menu>

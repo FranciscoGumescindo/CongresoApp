@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.android.victor.congresoapp"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    implementation 'com.google.firebase:firebase-database:16.0.4'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+
+    implementation 'com.android.support:design:28.0.0'
+    //libreria para el mapa
+    implementation 'org.osmdroid:osmdroid-android:5.6.4'
+
+    //...
+    ///aqui esta es la necesaria parq que funciones este proyecto
+    implementation 'com.firebaseui:firebase-ui-auth:3.3.0'
+    implementation 'com.google.firebase:firebase-database:15.0.1'
+
+    //core
+    implementation 'com.google.firebase:firebase-core:16.0.4'
+    //libreria recicler view
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    //libreria de picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    //para el cardview
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    //creamos esta
+    implementation 'com.firebaseui:firebase-ui-database:2.3.0'
+    //Authenticacion
+    implementation 'com.google.firebase:firebase-auth:16.0.4'
+    implementation 'com.firebaseui:firebase-ui-auth:3.3.0'
+    //implementation 'com.google.android.gms:play-services-auth:15.0.1'
+
+
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}

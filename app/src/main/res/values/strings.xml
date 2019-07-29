@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CongresoApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="cargando">Cargando..</string>
+    <string name="telefono">+1 52 235 32 3 15 45 Ext 145</string>
+    <string name="correo">info@itsmisantla.edu.mx</string>
+    <string name="pagina">www.itsm.edu.mx</string>
+    <string name="horario">Horario: \n 9:00 AM a 6:00 PM \n Lunes a Sabado</string>
+    <string name="info">Para mas informacion consulte:</string>
+    <string name="precio">Costos del congreso:</string>
+    <string name="estudiantes">Estudiantes ITSM:</string>
+    <string name="externos">Externos:</string>
+    <string name="app_communicate">Acerca de..</string>
+    <string name="salir_main">Cerrar app</string>
+    <string name="direccion">Dirección: Calle Zotuco 121, Centro, 93821 Misantla, Ver.</string>
+
+    <string name="image">image</string>
+    <string name="email_id">correo electronico</string>
+    <string name="password">contraseña</string>
+    <string name="login">Login</string>
+    <string name="create_a_new_account">Crear una nueva cuenta!</string>
+    <string name="failed">Autenticación fallida</string>
+</resources>
